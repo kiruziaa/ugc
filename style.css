@@ -1,0 +1,1058 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (min-width: 1260px) {
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+} 
+
+.body {
+    width: 1260px; 
+    height: 3068px; 
+    position: relative; 
+    background: #F4F4F4;
+    overflow: hidden;
+    margin: 0;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    width: 1260.49px; 
+    height: 669px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content img {
+    width: 1260.49px; 
+    height: 669px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+}
+
+.first-text {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    padding-top: 550px;
+}
+
+h1{
+    font-size: 36px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 10.08px;
+    font-family: "Adamina", serif;
+}
+
+.first-text p {
+    font-size: 24px; 
+    font-weight: 400; 
+    font-family: inter;
+    text-transform: lowercase; 
+    letter-spacing: 7.68px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* About page */
+
+.about {
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+
+/* Picture */
+.squaremain {
+    width: 295.30px; 
+    height: 329.72px; 
+    left: -24.63px; 
+    top: 64.48px; 
+    position: relative; 
+    transform: rotate(-12deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+    overflow: hidden;
+}
+
+.squaremain img{
+    width: 260.24px; 
+    height: 293.92px; 
+    left: 15.30px; 
+    top: 15.66px; 
+    position: absolute; 
+    transform: rotate(12eg); 
+    transform-origin: top left; 
+}
+
+.square{
+    width: 280.08px; 
+    height: 394.70px; 
+    left: 202.10px; 
+    top: 243.06px; 
+    position: absolute; 
+    transform: rotate(7deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+}
+
+.square img{
+    width: 232.47px; 
+    height: 354.55px; 
+    left: 20.78px; 
+    top: 15.74px; 
+    position: absolute; 
+    transform: rotate(0deg); 
+    transform-origin: top left;
+}
+
+
+/* text */
+
+.about-text h5{
+    left: 801px; 
+    top: 140px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.about-text h6{
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 234px;
+    left: 571px;
+    position: absolute; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+
+.about-text p{
+    width: 638px; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 371px;
+    left: 571px;
+    position: absolute; 
+    word-wrap: break-word;
+}
+
+/* portfolio pics */
+
+.portfolio-pics{
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.line{
+    width: 541px;
+    height: 0px; /* make it visible */
+    background-color: black; /* makes the line appear */
+    margin: 35px auto 0 auto;
+} 
+
+.line1{
+    width: 541px; 
+    height: 0px;
+    color: black;
+    margin: 600px auto 0 auto;
+}
+
+/* pics */
+
+.portfolio-pics img {
+    position: absolute; 
+    width: 234px; 
+    height: 230px;
+}
+
+.pic1{
+    left: 129px;
+    top: 90px;
+}
+
+.pic2{
+    left: 385px;
+    top: 90px;
+}
+
+.pic3{
+    left: 641px;
+    top: 90px;
+}
+
+.pic4{
+    left: 897px;
+    top: 90px;
+}
+
+.pic5{
+    left: 129px;
+    top: 356px;
+}
+
+.pic6{
+    left: 385px;
+    top: 356px;
+}
+
+.pic7{
+    left: 641px;
+    top: 356px;
+}
+
+.pic8{
+    left: 897px;
+    top: 356px;
+}
+
+/* portfolio vids */
+
+.portfolio-vids{
+    width: 1260px; 
+    height: 645px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.portfolio-vids h1{
+    text-align: center; 
+    color: black; 
+    font-size: 96px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 83px;
+}
+
+.vid1,
+.vid2,
+.vid3, 
+.vid4 {
+    width: 234px;
+    height: 383px;
+    object-fit: cover;
+    display: inline-block;
+} 
+
+/* FOOTER */
+.footer{
+    width: 1260px; 
+    height: 311px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.icons {
+    color: #000000;
+    top: 109px;
+    position: relative;
+    left: 55px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons i {
+    color: #000;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.fa-instagram {
+    font-size: 23px;
+}
+.fa-envelope {
+    font-size: 24px;
+}
+
+.fa-tiktok {
+    font-size: 18px; 
+}
+
+
+.email {
+    color: black; 
+    font-size: 24px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    text-transform: lowercase;
+    margin-top: 140px;
+    left: 55px;
+    position: relative;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.menu{
+    position: relative;
+    left: 699px;
+    top: -80px;
+    font-family: Inter; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    gap: 30px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.rights{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+
+}
+
+
+/* FOOTER */
+
+@media (min-width: 834px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+} 
+
+.body {
+    width: 834px; 
+    height: 2697px; 
+    position: relative; 
+    background: #F4F4F4;
+    overflow: hidden;
+    margin: 0;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    width: 1260.49px; 
+    height: 669px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content img {
+    width: 1260.49px; 
+    height: 669px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+}
+
+.first-text {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    padding-top: 550px;
+}
+
+h1{
+    font-size: 36px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 10.08px;
+    font-family: "Adamina", serif;
+}
+
+.first-text p {
+    font-size: 24px; 
+    font-weight: 400; 
+    font-family: inter;
+    text-transform: lowercase; 
+    letter-spacing: 7.68px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* About page */
+
+.about {
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+
+/* Picture */
+.squaremain {
+    width: 295.30px; 
+    height: 329.72px; 
+    left: -24.63px; 
+    top: 64.48px; 
+    position: relative; 
+    transform: rotate(-12deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+    overflow: hidden;
+}
+
+.squaremain img{
+    width: 260.24px; 
+    height: 293.92px; 
+    left: 15.30px; 
+    top: 15.66px; 
+    position: absolute; 
+    transform: rotate(12eg); 
+    transform-origin: top left; 
+}
+
+.square{
+    width: 280.08px; 
+    height: 394.70px; 
+    left: 202.10px; 
+    top: 243.06px; 
+    position: absolute; 
+    transform: rotate(7deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+}
+
+.square img{
+    width: 232.47px; 
+    height: 354.55px; 
+    left: 20.78px; 
+    top: 15.74px; 
+    position: absolute; 
+    transform: rotate(0deg); 
+    transform-origin: top left;
+}
+
+
+/* text */
+
+.about-text h5{
+    left: 801px; 
+    top: 140px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.about-text h6{
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 234px;
+    left: 571px;
+    position: absolute; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+
+.about-text p{
+    width: 638px; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 371px;
+    left: 571px;
+    position: absolute; 
+    word-wrap: break-word;
+}
+
+/* portfolio pics */
+
+.portfolio-pics{
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.line{
+    width: 541px;
+    height: 0px; /* make it visible */
+    background-color: black; /* makes the line appear */
+    margin: 35px auto 0 auto;
+} 
+
+.line1{
+    width: 541px; 
+    height: 0px;
+    color: black;
+    margin: 600px auto 0 auto;
+}
+
+/* pics */
+
+.portfolio-pics img {
+    position: absolute; 
+    width: 234px; 
+    height: 230px;
+}
+
+.pic1{
+    left: 129px;
+    top: 90px;
+}
+
+.pic2{
+    left: 385px;
+    top: 90px;
+}
+
+.pic3{
+    left: 641px;
+    top: 90px;
+}
+
+.pic4{
+    left: 897px;
+    top: 90px;
+}
+
+.pic5{
+    left: 129px;
+    top: 356px;
+}
+
+.pic6{
+    left: 385px;
+    top: 356px;
+}
+
+.pic7{
+    left: 641px;
+    top: 356px;
+}
+
+.pic8{
+    left: 897px;
+    top: 356px;
+}
+
+/* portfolio vids */
+
+.portfolio-vids{
+    width: 1260px; 
+    height: 645px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.portfolio-vids h1{
+    text-align: center; 
+    color: black; 
+    font-size: 96px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 83px;
+}
+
+.vid1,
+.vid2,
+.vid3, 
+.vid4 {
+    width: 234px;
+    height: 383px;
+    object-fit: cover;
+    display: inline-block;
+} 
+
+/* FOOTER */
+.footer{
+    width: 1260px; 
+    height: 311px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.icons {
+    color: #000000;
+    top: 109px;
+    position: relative;
+    left: 55px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons i {
+    color: #000;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.fa-instagram {
+    font-size: 23px;
+}
+.fa-envelope {
+    font-size: 24px;
+}
+
+.fa-tiktok {
+    font-size: 18px; 
+}
+
+
+.email {
+    color: black; 
+    font-size: 24px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    text-transform: lowercase;
+    margin-top: 140px;
+    left: 55px;
+    position: relative;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.menu{
+    position: relative;
+    left: 699px;
+    top: -80px;
+    font-family: Inter; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    gap: 30px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.rights{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+
+}
+
+@media (min-width: 314px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+} 
+
+.body {
+    width: 314px; 
+    height: 2755px; 
+    position: relative; 
+    background: #F4F4F4;
+    overflow: hidden;
+    margin: 0;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    width: 1260.49px; 
+    height: 669px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content img {
+    width: 1260.49px; 
+    height: 669px;
+    z-index: 1;
+    object-fit: cover;
+    position: absolute;
+}
+
+.first-text {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    padding-top: 550px;
+}
+
+h1{
+    font-size: 36px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 10.08px;
+    font-family: "Adamina", serif;
+}
+
+.first-text p {
+    font-size: 24px; 
+    font-weight: 400; 
+    font-family: inter;
+    text-transform: lowercase; 
+    letter-spacing: 7.68px;
+    font-family: Arial, sans-serif;
+}
+
+
+/* About page */
+
+.about {
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+
+/* Picture */
+.squaremain {
+    width: 295.30px; 
+    height: 329.72px; 
+    left: -24.63px; 
+    top: 64.48px; 
+    position: relative; 
+    transform: rotate(-12deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+    overflow: hidden;
+}
+
+.squaremain img{
+    width: 260.24px; 
+    height: 293.92px; 
+    left: 15.30px; 
+    top: 15.66px; 
+    position: absolute; 
+    transform: rotate(12eg); 
+    transform-origin: top left; 
+}
+
+.square{
+    width: 280.08px; 
+    height: 394.70px; 
+    left: 202.10px; 
+    top: 243.06px; 
+    position: absolute; 
+    transform: rotate(7deg); 
+    transform-origin: top left; 
+    background: #F4F4F4;
+}
+
+.square img{
+    width: 232.47px; 
+    height: 354.55px; 
+    left: 20.78px; 
+    top: 15.74px; 
+    position: absolute; 
+    transform: rotate(0deg); 
+    transform-origin: top left;
+}
+
+
+/* text */
+
+.about-text h5{
+    left: 801px; 
+    top: 140px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.about-text h6{
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 234px;
+    left: 571px;
+    position: absolute; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+
+.about-text p{
+    width: 638px; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    top: 371px;
+    left: 571px;
+    position: absolute; 
+    word-wrap: break-word;
+}
+
+/* portfolio pics */
+
+.portfolio-pics{
+    width: 1260px; 
+    height: 669px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.line{
+    width: 541px;
+    height: 0px; /* make it visible */
+    background-color: black; /* makes the line appear */
+    margin: 35px auto 0 auto;
+} 
+
+.line1{
+    width: 541px; 
+    height: 0px;
+    color: black;
+    margin: 600px auto 0 auto;
+}
+
+/* pics */
+
+.portfolio-pics img {
+    position: absolute; 
+    width: 234px; 
+    height: 230px;
+}
+
+.pic1{
+    left: 129px;
+    top: 90px;
+}
+
+.pic2{
+    left: 385px;
+    top: 90px;
+}
+
+.pic3{
+    left: 641px;
+    top: 90px;
+}
+
+.pic4{
+    left: 897px;
+    top: 90px;
+}
+
+.pic5{
+    left: 129px;
+    top: 356px;
+}
+
+.pic6{
+    left: 385px;
+    top: 356px;
+}
+
+.pic7{
+    left: 641px;
+    top: 356px;
+}
+
+.pic8{
+    left: 897px;
+    top: 356px;
+}
+
+/* portfolio vids */
+
+.portfolio-vids{
+    width: 1260px; 
+    height: 645px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.portfolio-vids h1{
+    text-align: center; 
+    color: black; 
+    font-size: 96px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 83px;
+}
+
+.vid1,
+.vid2,
+.vid3, 
+.vid4 {
+    width: 234px;
+    height: 383px;
+    object-fit: cover;
+    display: inline-block;
+} 
+
+/* FOOTER */
+.footer{
+    width: 1260px; 
+    height: 311px; 
+    position: relative; 
+    background: white; 
+    overflow: hidden;
+}
+
+.icons {
+    color: #000000;
+    top: 109px;
+    position: relative;
+    left: 55px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icons i {
+    color: #000;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.fa-instagram {
+    font-size: 23px;
+}
+.fa-envelope {
+    font-size: 24px;
+}
+
+.fa-tiktok {
+    font-size: 18px; 
+}
+
+
+.email {
+    color: black; 
+    font-size: 24px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    text-transform: lowercase;
+    margin-top: 140px;
+    left: 55px;
+    position: relative;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.menu{
+    position: relative;
+    left: 699px;
+    top: -80px;
+    font-family: Inter; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    gap: 30px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.rights{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+}
+
+}
